@@ -13,9 +13,9 @@ $ pip3 install -r requirements.txt  # nainstalujeme knihovny
 ```
 
 ## Spuštění projektu
-Spuštění souboru `Elections_scraper.py` v rámci příkazového řádku požaduje dva povinné argumenty.
+Spuštění souboru `elections_scraper.py` v rámci příkazového řádku požaduje dva povinné argumenty.
 ```
-python Elections_scraper <odkaz-uzemniho-celku> <vysledny-soubor>
+python elections_scraper <odkaz-uzemniho-celku> <vysledny-soubor>
 ```
 Následně se vám stáhnou výsledky jako soubor s příponou `.csv`.
 
@@ -32,8 +32,8 @@ python elections_scraper.py 'https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj
 Průběh stahování:
 ```
 Stahuji data ze zadaneho URL: https://volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=12&xnumnuts=7103
-Ukladam do souboru: vysledky_prostejov.csv
-Ukoncuji Elections scraper
+Ukladam stazena data do souboru: vysledky_prostejov.csv
+Ukoncuji elections_scraper.py
 ```
 
 Částečný výstup:
@@ -43,6 +43,3 @@ Kód;Lokalizace;Voliči v seznamu;Vydané obálky;Platné hlasy;...
 589268;Bedihošť;834;527;524;51;0;0;28;1;13;123;2;2;14;1;0;34;0;6;140;0;0;26;0;0;0;0;82;1
 ...
 ```
-
-
-
