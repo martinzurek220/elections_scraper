@@ -1,3 +1,10 @@
+"""
+elections_scraper.py: třetí projekt do Engeto Online Python Akademie
+author: Martin Žůrek
+email: zurek.m@email.cz
+discord: MartinZ#0894
+"""
+
 import requests
 from bs4 import BeautifulSoup
 import os
